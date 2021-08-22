@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "razorpay payment system",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshaymemail/RazorPay-Payments-Gateway.git"
+  },
+  "keywords": [
+    "razorpay",
+    "mern",
+    "react",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "AKSHAY KUMAR SINGH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akshaymemail/RazorPay-Payments-Gateway/issues"
+  },
+  "homepage": "https://github.com/akshaymemail/RazorPay-Payments-Gateway#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nanoid": "^3.1.25",
+    "razorpay": "^2.0.6"
+  }
+}
